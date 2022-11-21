@@ -2,13 +2,13 @@ import { SVGProps } from "react"
 
 const FlagUk = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={64}
-    height={64}
+  style={{ width: "inherit", height: "inherit", borderRadius: "50%" }}
+  viewBox="0 0 31.921 36.45"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g clipPath="url(#a)">
+    <g clipPath="url(#a)" transform="translate(-17 -15)">
       <path
         d="M38 54h16c1.977 0 3.657-.446 5.052-1.223L38 40.219V54Zm25.66-7.79c.228-1.017.344-2.094.344-3.211v-5h-14.11l13.762 8.211M.35 17.759A14.635 14.635 0 0 0 0 21v5h14.164L.35 17.759ZM26 10H10c-1.963 0-3.632.44-5.02 1.206L26 23.746V10ZM5.043 52.826C6.42 53.57 8.066 54 10 54h16V40.324L5.043 52.826ZM0 38v5c0 1.151.122 2.26.363 3.303L14.283 38H0Zm59.115-26.745C57.71 10.457 56.006 10 54 10H38v13.851l21.115-12.596ZM64 26v-5c0-1.094-.113-2.149-.332-3.147L50.012 26H64Z"
         fill="#2E3192"

@@ -2,12 +2,13 @@ import { SVGProps } from "react"
 
 const FlagSpain = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={64}
-    height={64}
+  style={{ width: "inherit", height: "inherit", borderRadius: "50%" }}
+  viewBox="0 0 31.921 36.45"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
+    <g transform="translate(-10 -15)">
     <path d="M0 23h64v18H0V23Z" fill="#FDCA5A" />
     <path
       d="M54 10H10C3.373 10 0 14.925 0 21v2h64v-2c0-6.075-3.373-11-10-11ZM0 43c0 6.073.042 11 12 11h40c11.958 0 12-4.927 12-11v-2H0v2Z"
@@ -6385,6 +6386,7 @@ const FlagSpain = (props: SVGProps<SVGSVGElement>) => (
       d="m15.797 31.89.3-.014-.146.095c-.017 0-.034.004-.053.004-.033-.03-.067-.057-.1-.085"
       fill="#928100"
     />
+    </g>
   </svg>
 )
 

@@ -5,12 +5,21 @@ export const Container = styled.div`
     height: 100%;
 `
 
-export const FirstDivContainer = styled.div`
+export const TitleAndSearchContainer = styled.div`
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 `
 
 export const Title = styled.h1`
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
     color: #100100;
-    margin: 0;
+`
+
+export const LanguagesContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 `
